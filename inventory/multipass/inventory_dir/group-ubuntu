@@ -1,0 +1,8 @@
+[ubuntu]
+ubuntu5
+ubuntu7
+#ubuntu12
+
+[ubuntu:vars]
+ansible_user=ubuntu
+ansible_port=22 

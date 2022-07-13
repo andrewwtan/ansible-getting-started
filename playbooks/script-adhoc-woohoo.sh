@@ -3,7 +3,7 @@
 # to understand the purpose of playbooks.
 
 # Ensure ~/.gitconfig is basaed on my master.gitconfig
-ansible -m copy -a "src=../adhoc/master.gitconfig dest=~/.gitconfig" localhost
+ansible -m copy -a "src=../adhoc/master.gitconfig dest=~/.gitconfig.ansible" localhost
 
 # Ensure `bat` is installed
 # - A `cat` replacement for syntax highlighting!
