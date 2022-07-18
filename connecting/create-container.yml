@@ -21,6 +21,6 @@
   hosts: containers 
   tasks:
   - git_config: scope=global list_all=yes
-  - git_config: scope=global name=user.email value=wes.mcclure@gmail.com
-  - git_config: scope=global name=user.name value=Wes
+  - git_config: scope=global name=user.email value=andrewwtan@gmail.com
+  - git_config: scope=global name=user.name value=Andrew
   - git_config: scope=global list_all=yes

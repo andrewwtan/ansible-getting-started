@@ -1,0 +1,6 @@
+[zmultipass:children]
+ubuntu
+
+[zmultipass:vars]
+ansible_user=ubuntu
+ansible_port=22 
